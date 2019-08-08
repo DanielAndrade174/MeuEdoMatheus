@@ -25,7 +25,7 @@ export class AppComponent {
     {
       title: 'Inicio',
       url: '/list',
-      icon: 'home'
+      icon: 'ios-home'
     },
     {
       title: 'Logoff',
@@ -33,10 +33,15 @@ export class AppComponent {
       icon: 'md-exit'
     },
     {
-      title: 'Lista de Nutricionistas',
+      title: 'Chat com Nutricionista',
       url: '/lista-de-nutricionistas',
-      icon: 'book'
-    }
+      icon: 'md-chatbubbles'
+    },
+    {
+      title: 'Seus Treinos',
+      url: '/treino',
+      icon: 'md-bicycle'
+    },
   ];
 // 
   constructor(
